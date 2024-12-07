@@ -47,20 +47,65 @@
     text-decoration-color: blue;
     cursor: pointer;
   }
-  h1{
-   
+  main .hero {
     text-align: center;
-    
-  }
- 
-  .welcome img{
-    height: 672px;
-    width:100%;
-    align-items: center;
-    justify-content: center;
-  }
-  .projects img{
-    height:50%;
-    width:25%
+    padding: 20px;
   }
   
+  main .hero h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  
+  main .hero .image-container img {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .projects .project {
+    text-align: center;
+  }
+  
+  .projects .project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  button{
+    background-color: black;
+    color:white;
+  }
+  
+
+  .description {
+    margin: 40px 20px;
+  }
+  
+  /* .contact {
+    text-align: center;
+    margin: 40px 20px;
+  }
+  
+  .contact form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  } */
+  
+  footer {
+    background-color:white;
+    color:black;
+    padding: 10px 20px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
