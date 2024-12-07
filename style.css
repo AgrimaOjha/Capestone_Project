@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Bebas Nueu;
+  }
+
+  /* Header styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+  }
+
+  /* Company name styling */
+  .logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  /* Navigation menu styling */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    cursor: pointer;
+  }
+  h1{
+   
+    text-align: center;
+    
+  }
+ 
+  .welcome img{
+    height: 672px;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .projects img{
+    height:50%;
+    width:25%
+  }
+  
