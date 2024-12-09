@@ -78,9 +78,22 @@
     max-width: 300px;
     border-radius: 8px;
   }
+  h4{
+    margin:10px;
+    padding: 10px;
+  }
   button{
     background-color: black;
-    color:white;
+    color:white; 
+    width:100px;
+    height:30px; 
+    border-radius: 5px;
+  }
+  input[type="text"]{
+    width:40px;
+    height: 40px;
+    text-align: center;
+    border-radius:8px;
   }
   
 
@@ -105,6 +118,8 @@
     text-decoration: none;
     color: black;
   }
+
+  
   .footer {
     background-color:white;
     color:black;
@@ -116,7 +131,16 @@
     font-weight: bold;
 }
 
+.back{
+  text-align: end;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+}
 
 
-
-
+.submit{
+  width: 300px;
+  border-radius: 5px;
+}
