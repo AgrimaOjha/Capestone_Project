@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
   }
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
   
-  body {
-    font-family: Bebas Nueu;
+  body{
+  font-family: "Bebas Neue", serif;
   }
+  
+  
 
   /* Header styling */
   header {
@@ -47,7 +50,7 @@
   nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 12px;
+    font-size: 15px;
   
   }
 
@@ -164,3 +167,14 @@
   width: 300px;
   border-radius: 5px;
 }
+@media (max-width: 768px){
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+  @media (max-width: 480px) {
+    header {
+      padding: 10px;
+    }
+  }
